@@ -3,10 +3,10 @@ import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
+    <div className="min-h-screen bg-gray-50">
+      <main className="max-w-4xl mx-auto py-8">
         <Image
-          className={styles.logo}
+          className="mx-auto"
           src="/next.svg"
           alt="Next.js logo"
           width={180}
